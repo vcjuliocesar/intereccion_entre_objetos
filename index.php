@@ -48,7 +48,7 @@ class User extends Persona{
     public function Saludar(Persona $user)
     {
         echo "<p>{$this->Name} dice hola a {$user->getName()}</p>";
-        //var_dump($user);
+        //var_dump($this);
     }
     
      public function EdadPermitida($anioNacimiento)
